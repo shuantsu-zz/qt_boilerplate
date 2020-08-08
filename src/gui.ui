@@ -6,47 +6,31 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>726</width>
-    <height>562</height>
+    <width>446</width>
+    <height>341</height>
    </rect>
-  </property>
-  <property name="sizePolicy">
-   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-    <horstretch>200</horstretch>
-    <verstretch>200</verstretch>
-   </sizepolicy>
-  </property>
-  <property name="minimumSize">
-   <size>
-    <width>726</width>
-    <height>562</height>
-   </size>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
    <item row="0" column="0">
-    <widget class="QPushButton" name="botao_clique_em_mim">
-     <property name="minimumSize">
-      <size>
-       <width>0</width>
-       <height>23</height>
-      </size>
-     </property>
-     <property name="maximumSize">
-      <size>
-       <width>16777215</width>
-       <height>23</height>
-      </size>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">color: rgb(236, 27, 198)</string>
-     </property>
-     <property name="text">
-      <string>HELLO WORLD</string>
-     </property>
-    </widget>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="styleSheet">
+        <string notr="true">font: 75 28pt &quot;Arial&quot;;
+color: rgb(15, 211, 255)</string>
+       </property>
+       <property name="text">
+        <string>HELLO WORLD</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
    </item>
   </layout>
  </widget>
