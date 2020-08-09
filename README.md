@@ -1,5 +1,7 @@
 # PyQt5 Boilerplate
 
+![](thumb.png)
+
 ## Tutorial
 
 1. Download QtDesigner from [this link](https://build-system.fman.io/qt-designer-download "this link")
