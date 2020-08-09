@@ -9,7 +9,7 @@
 
 ## How to use
 
-1. Clone the repo and enter the directory.
+1. Clone the repo and enter its directory.
 2. Execute the command `python -m venv env`.
 3. Run `init_pip.bat`
 4. Modify `main.py` and `gui.ui` files on the `src` folder as you desire
