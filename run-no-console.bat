@@ -4,4 +4,4 @@ call activate.bat
 cd ..\..
 python compile_ui.py
 cd src
-python main.py
+start pythonw main.py
